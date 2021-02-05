@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to the Coffeestudio - Cardano Stake Pool Operations
 
-You can use the [editor on GitHub](https://github.com/sil3ntr/coffeestudio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Who and Where are we
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We are a Father and Son team a IT proffesional (Son) of 15 years and a Aviation Engineer (Father).
 
-### Markdown
+* Pool Management is from beautiful Perth - Western Australia
+* Features 2 x Relay - 1 BP Configuration
+* Hourly Backups and a HA hosting configuration for peace of mind
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sil3ntr/coffeestudio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+We are lovers of open-source technology and crypto and we are proud to provide operational support for such a great project and are active members of the Cardano Pool Operator community.
