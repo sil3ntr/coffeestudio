@@ -1,0 +1,109 @@
+baseURL: "https://www.coffeestudio.com.au/"
+title: Cardano CoffeeStudio
+paginate: 5
+theme: PaperMod
+
+
+enableRobotsTXT: true
+buildDrafts: True
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: G-M5H8B70KJ4
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Cardano CoffeeStudio
+    description: "CoffeeStudio, a dedicated Australian based Cardano Stakepool"
+    keywords: [Blog,Cardano,Stakepool]
+    author: RichieRich
+    # author: ["Me", "You"] # multiple authors
+    #images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "September 16, 2021"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+  
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        #favicon: "<link / abs url>"
+        #favicon16x16: "<link / abs url>"
+        #favicon32x32: "<link / abs url>"
+        #apple_touch_icon: "<link / abs url>"
+        #safari_pinned_tab: "<link / abs url>"
+
+
+    label:
+        text: "Home"
+        icon: /coffee.svg
+        iconHeight: 35
+
+ # home-info mode
+    homeInfoParams:
+        Title: "Welcome, sit down, poor a steaming hot cup of coffee and join us in the world of Cardano."
+        Content: Thanks for joining us, we are delighted to have you stop by and join us on our Journey as a proud Australian Cardano Stakepool Operator (SPO for short)
+
+    socialIcons:
+       # - name: twitter
+       #   url: "https://twitter.com/"
+       # - name: stackoverflow
+       #   url: "https://stackoverflow.com"
+        - name: github
+          url: "https://github.com/sil3ntr"
+
+    analytics:
+        google:
+            SiteVerificationTag: "8MPi8F3jcsU5j9EdoHBDSqKwrqV9gsArzKj_vTNfCmo"
+        #bing:
+        #    SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    #editPost:
+    #    URL: "https://github.com/<path_to_repo>/content"
+    #    Text: "Suggest Changes" # edit text
+    #   appendFilePath: true # to append file path to Edit link
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+#  menu:
+#     main:
+#         - identifier: categories
+#           name: categories
+#           url: /categories/
+#           weight: 10
+#         - identifier: tags
+#           name: tags
+#           url: /tags/
+#           weight: 20
+#         - identifier: coffeestudio
+#           name: coffeestudio
+#           url: https://www.coffeestudio.com.au
+#           weight: 30
